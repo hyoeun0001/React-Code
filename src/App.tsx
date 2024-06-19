@@ -21,6 +21,7 @@ function App() {
     <div className="container">
       <TodoList></TodoList>
       <Clock></Clock>
+      <p></p>
       <MyWeather weather='맑음'>일기 예보</MyWeather>
     </div>
   );
