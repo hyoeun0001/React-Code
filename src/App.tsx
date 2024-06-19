@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TodoList from './Todolist';
+import MapTest from './MapTest';
+
+{
+  /*
+  주석문 
+  작성자 : 최효은
+  작성일 : 2024.06.18
+  내용 : 기능에 대한 내용
+  */
+}
 
 function App() {
+  let name = "REACT";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <TodoList></TodoList>
+      <MapTest></MapTest>
     </div>
   );
 }
